@@ -3,6 +3,7 @@ release_date: December 7, 2014
 
 previous_versions:
  - version: 2.1.0
+   svnRevision: 1847
    artifacts:
     - filename: Aegisub-2.1.0-r1847-setup.exe
       type: Windows
@@ -12,6 +13,7 @@ previous_versions:
       sha256: f840164a4e26ec6c1281ae558520db88fd4befc5d19ce73aab1af8ad1a0a4f66
 
  - version: 2.1.2
+   svnRevision: 1987
    artifacts:
     - filename: Aegisub-2.1.2-r1987-setup.exe
       type: Windows
@@ -21,6 +23,7 @@ previous_versions:
       sha256: 696a536231f40fe501f7a43144ec6310193bd82bc36a97665a590066379e844d
 
  - version: 2.1.3
+   svnRevision: 2429
    artifacts:
     - filename: Aegisub-2.1.3-r2429a-setup.exe
       type: Windows
@@ -30,6 +33,7 @@ previous_versions:
       sha256: 060e9532281e784c5d93e801a33d0e5323e209755da93a3baa98a3135e29c312
 
  - version: 2.1.6
+   svnRevision: 2494
    artifacts:
     - filename: Aegisub-2.1.6-r2494-setup.exe
       type: Windows
@@ -55,6 +59,7 @@ previous_versions:
       sha256: b63f465ea73c272788bf2af7df8156ff7f7775a3d8565eb19fda6d5fe863d0f8
 
  - version: 2.1.8
+   svnRevision: 4062
    artifacts:
     - filename: aegisub-2.1.8-linux-glibc27-x86.tar.bz2
       type: Linux
@@ -119,6 +124,7 @@ previous_versions:
       sha256: 4b20663fe7a70172bdc82fb6525af129718ab8a23c3b8f3078b85198a6468bcb
 
  - version: 2.1.9
+   svnRevision: 6219
    artifacts:
     - filename: aegisub-2.1.9.tar.gz
       type: Source
@@ -155,6 +161,7 @@ previous_versions:
       sha256: 19aa1e4f7601e0923bc19dfe149f9a544ff7c34579bd64bc31b619e7a3d4e1c4
 
  - version: 3.0.0
+   svnRevision: 7013
    artifacts:
     - filename: Aegisub-3.0.0-32.exe
       type: Windows
@@ -198,6 +205,7 @@ previous_versions:
       sha512: 7e11f77fc5699e2c4226c689dc7b52b6e2701b6df30fff8791c0bb62554cdbbf9c678fe366251443e8e9b3c9e64716d81d1f0dbb95d01602a26dff0764eef706
 
  - version: 3.0.1
+   svnRevision: 7049
    artifacts:
     - filename: Aegisub-3.0.1-32.exe
       type: Windows
@@ -241,6 +249,7 @@ previous_versions:
       sha512: 6af97c64132669f1d1a3dc4e9967951ef1d1006192a46980bc03ea84added4718b000a0e466b4caf29b9522656f74c1c3b2c2d38f2032a5a72b6bb33e0cc53ed
 
  - version: 3.0.2
+   svnRevision: 7081
    artifacts:
     - filename: aegisub-3.0.2-portable-32.exe
       type: Windows
@@ -284,6 +293,7 @@ previous_versions:
       sha512: 63158ec89aa05ac9db0a691bbb02a86f4dfca7ed7f07319dcbec2069f20f1d0fe1dc25f9c2181f579bdd5626f9fa679ebf9f8c56f51139e42e85ae1ffe6d6531
 
  - version: 3.0.3
+   svnRevision: 7127
    artifacts:
     - filename: aegisub-3.0.3-portable-32.exe
       type: Windows
@@ -327,6 +337,7 @@ previous_versions:
       sha512: c262b72d03fab919e774503bebc3ea7d120df1adf5b0784752b63fca466fecae7845d4dc74d74148d058723b094b22a6601262fd2e58a81da70a183889525c4a
 
  - version: 3.0.4
+   svnRevision: 7130
    artifacts:
     - filename: aegisub_3.0.4-1_amd64.deb
       type: Linux
@@ -384,6 +395,7 @@ previous_versions:
       sha512: 9f476addf4618a47bf4060f92124cb8ee29b7f919d17500af0f902ec10f4515f0cf481b9e2e302a83ecf87302defc5dea8241c9308f71b4426271cc4895de06e
 
  - version: 3.1.0
+   svnRevision: 7937
    artifacts:
     - filename: aegisub-3.1.0.tar.xz
       type: Source
@@ -427,6 +439,7 @@ previous_versions:
       sha512: 3f055ef5e200846918598e1dd5bc09309116a32bd0ddb80041ac6bbc05230098432e9c30a0614ba70be92feedadcf5dd77a7bd15eafe8827739650c5632ad25b
 
  - version: 3.1.1
+   svnRevision: 7948
    artifacts:
     - filename: aegisub-3.1.1-portable-32.exe
       type: Windows
@@ -470,6 +483,7 @@ previous_versions:
       sha512: a2665b8989bd4c5b7aa13874060b529970b4ed8936f5ccb9e0dff3aa01dddd8f5c3e207c34cb17015e968be01db6014e30135730e315f2a952a1470fcbc84ec0
 
  - version: 3.1.2
+   svnRevision: 7961
    artifacts:
     - filename: Aegisub-3.1.2-32.exe
       type: Windows
@@ -513,6 +527,7 @@ previous_versions:
       sha512: d15e16f9f98c01447b72cde1998c915a2bfc1aa918a4380b54303de8e88ef881f46c3896ab9dc5eddaf4f1376f0908abd8427dbf6af395e6e0b3969ddca402ab
 
  - version: 3.1.3
+   svnRevision: 8001
    artifacts:
     - filename: aegisub-3.1.3-portable-32.exe
       type: Windows
@@ -556,6 +571,7 @@ previous_versions:
       sha512: 8e52e3454f819ec70690d4c4884a6c26c481ca92e911da4961834435b7dcd39aba68a4be3757606a6f204c7eb129ff13c650e67c8c64fc3201f796c68bf20cb5
 
  - version: 3.2.0
+   svnRevision: 8612
    artifacts:
     - filename: Aegisub-3.2.0-32.exe
       type: Windows
@@ -611,6 +627,7 @@ previous_versions:
       sha512: 0e293d094b7246311361eedaf16398689780971a16dcb0f5cb0599bde290eec872b72a8e003879558e06f40632604da04cd82952817b36b7359ce2094b614d5e
 
  - version: 3.2.1
+   svnRevision: 8622
    artifacts:
     - filename: Aegisub-3.2.1-32.exe
       type: Windows
@@ -667,6 +684,7 @@ previous_versions:
       sha512: 79f37b0f834dc2c98d64b5d38d21fa13c1b0292f63c537a5a23663e08a02c29c64c15e3b12070c6d51082e184b4af1d3830331bfc646a7659664d29c6096f96b
 
  - version: 3.2.2
+   svnRevision: 8635
    artifacts:
     - filename: Aegisub-3.2.2-32.exe
       type: Windows
