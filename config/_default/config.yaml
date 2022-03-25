@@ -17,6 +17,7 @@ outputs:
   home:
     - HTML
     - RSS
+    - updateInfo
   section:
     - HTML
     - RSS
@@ -31,6 +32,10 @@ outputFormats:
     isPlainText: true
     noUgly: true
     rel: sitemap
+  updateInfo:
+    mediaType: application/json
+    baseName: updates
+    isPlainText: true
 
 caches:
   getjson:

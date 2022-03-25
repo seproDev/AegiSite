@@ -42,7 +42,9 @@
 {{ partial "head/twitter_cards.html" . }}
 
 {{ range .AlternativeOutputFormats -}}
+  {{ if ne .Name (lower "updateInfo") -}}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+  {{ end -}}
 {{ end -}}
 
 {{ partial "head/structured-data.html" . }}

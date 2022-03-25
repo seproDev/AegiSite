@@ -1,5 +1,16 @@
-{{- $.Scratch.Add "index" slice -}}
-{{- range .Site.RegularPages -}}
-  {{- $.Scratch.Add "index" (dict "title" .Title "description" .Params.description "contents" .Plain "RelPermalink" .RelPermalink) -}}
-{{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}}
+{{ $site := .Site -}}
+{{ $versionData := .Site.Data.version.previous_versions -}}
+{{ $updateData := slice -}}
+{{ range $versionData -}}
+  {{ if isset . "svnRevision" -}}
+    {{ $changelog := default "" (($site.GetPage (printf "/changelog/%s.md" .version)).RawContent) -}}
+    {{ $update := dict
+      "name" (print "Aegisub " .version)
+      "svnRevision" .svnRevision
+      "url" "https://aegisub.org/"
+      "body" (trim $changelog  " \n")
+    -}}
+    {{ $updateData = $updateData | append $update -}}
+  {{ end -}}
+{{ end -}}
+{{ $updateData | jsonify }}
